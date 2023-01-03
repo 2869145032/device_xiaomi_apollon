@@ -659,6 +659,10 @@
 	@left
     </string>
 
+    <!-- When true use the linux /dev/input/event subsystem to detect the switch changes
+         on the headphone/microphone jack. When false use the older uevent framework. -->
+    <bool name="config_useDevInputEventForAudioJack">true</bool>
+
     <!-- Whether the display cutout region of the main built-in display should be forced to
         black in software (to avoid aliasing or emulate a cutout that is not physically existent).
     -->
